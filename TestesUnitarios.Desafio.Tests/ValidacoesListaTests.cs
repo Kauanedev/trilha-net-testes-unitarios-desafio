@@ -42,7 +42,6 @@ public class ValidacoesListaTests
         var numeroParaProcurar = 10;
 
         // Act
-        lista.Remove(numeroParaProcurar);
         var resultado = _validacoes.ListaContemDeterminadoNumero(lista, numeroParaProcurar);
 
         // Assert
